@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+.text-yellow-dark {
+  color: #EC7211
+}
+
+.text-yellow {
+  color: #ffb800;
+}
+
+.text-black-custom {
+  color: #1f2430;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-light-black {
+  color: #1f2430;
+}
+
+.text-gray {
+  color: #646464
+}
+
+.text-light-gray {
+  color: #888888
+}
+
+.icon-small {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 5px ;
+}
+
+#wrapper {
+  width: 100%;
+  font-family: "Amazon Ember";
+  font-size: 16px;
+}
+
+header {
+  background: #232F3E;
+  width: 100%;
+  height: 5vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  transition: all .2s;
+  z-index: 999;
+  font-size: 14px;
+  color: #000
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+ul {
+  margin: 20px 15px;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1700px;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}

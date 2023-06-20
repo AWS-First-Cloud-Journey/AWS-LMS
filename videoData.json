@@ -1,0 +1,154 @@
+{
+  "CourseVideo": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "1"
+          },
+          "name": {
+            "S": "vpc"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/1.vpc.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "2"
+          },
+          "name": {
+            "S": "subnet"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/2.subnet.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "3"
+          },
+          "name": {
+            "S": "az"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/3.az.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "4"
+          },
+          "name": {
+            "S": "subnet"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/4.public-and-private-subnet.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "5"
+          },
+          "name": {
+            "S": "route-table"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/5.route-table.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "6"
+          },
+          "name": {
+            "S": "public-ips"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/6.public-ips.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "7"
+          },
+          "name": {
+            "S": "dhcp"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/7.dhcp.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "8"
+          },
+          "name": {
+            "S": "demo-vpc"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/8.demo-vpc.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "9"
+          },
+          "name": {
+            "S": "nat"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/9.nat.mp4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "10"
+          },
+          "name": {
+            "S": "demo-nat"
+          },
+          "url": {
+            "S": "https://dj1x97de3gl4h.cloudfront.net/video/10.demo-nat.mp4"
+          }
+        }
+      }
+    }
+  ]
+}

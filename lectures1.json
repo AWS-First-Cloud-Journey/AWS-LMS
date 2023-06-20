@@ -1,0 +1,155 @@
+{
+    "Lectures": [
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "7af7dced-91d0-42f5-a82a-972714b3b36f"
+            },
+            "name": {
+              "S": "VPC Overview"
+            },
+            "vid_id": {
+              "S": "1"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "cc86090a-892b-4158-b457-cca60e8e15d4"
+            },
+            "name": {
+              "S": "Subnets"
+            },
+            "vid_id": {
+              "S": "2"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "78c90b92-9504-4ae0-aa57-8a251ed4046c"
+            },
+            "name": {
+              "S": "Availability Zone"
+            },
+            "vid_id": {
+              "S": "3"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "71de855e-4d7c-4a36-a450-0588766f564a"
+            },
+            "name": {
+              "S": "Public and private subnet"
+            },
+            "vid_id": {
+              "S": "4"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "9cf9e515-265c-45eb-aa34-66020057026e"
+            },
+            "name": {
+              "S": "Route table"
+            },
+            "vid_id": {
+              "S": "5"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "05a08326-f6f9-4b3a-8951-abd5b847e7c5"
+            },
+            "name": {
+              "S": "Public IPS"
+            },
+            "vid_id": {
+              "S": "6"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "82cbd1c3-06a3-4935-af41-7292692cef52"
+            },
+            "name": {
+              "S": "DHCP"
+            },
+            "vid_id": {
+              "S": "7"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "9312e297-5604-42db-b6d3-89fa3fa4d035"
+            },
+            "name": {
+              "S": "Demo VPC"
+            },
+            "vid_id": {
+              "S": "8"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "80016434-5436-45f9-97aa-a615bbfb233b"
+            },
+            "name": {
+              "S": "NAT Gateways"
+            },
+            "vid_id": {
+              "S": "9"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "1513f84e-ccb7-48aa-ac48-3b17633aa07d"
+            },
+            "name": {
+              "S": "Demo NAT Gateways"
+            },
+            "vid_id": {
+              "S": "10"
+            }
+          }
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,216 @@
+{
+  "Lectures-old": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "7af7dced-91d0-42f5-a82a-972714b3b36f"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "VPC Overview"
+          },
+          "order": {
+            "N": 1
+          },
+          "vid_id": {
+            "S": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "2"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Subnets"
+          },
+          "vid_id": {
+            "S": "2"
+          },
+          "order": {
+            "N": 2
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "3"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Availability Zone"
+          },
+          "vid_id": {
+            "S": "3"
+          },
+          "order": {
+            "N": 3
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "4"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Public and private subnet"
+          },
+          "vid_id": {
+            "S": "4"
+          }
+          ,
+          "order": {
+            "N": 4
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "5"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Route table"
+          },
+          "vid_id": {
+            "S": "5"
+          }
+          ,
+          "order": {
+            "N": 5
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "6"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Public IPS"
+          },
+          "vid_id": {
+            "S": "6"
+          },
+          "order": {
+            "N": 6
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "7"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "DHCP"
+          },
+          "vid_id": {
+            "S": "7"
+          },
+          "order": {
+            "N": 7
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "8"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Demo VPC"
+          },
+          "vid_id": {
+            "S": "8"
+          },
+          "order": {
+            "N": 8
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "9"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "NAT Gateways"
+          },
+          "vid_id": {
+            "S": "9"
+          },
+          "order": {
+            "N": 9
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "10"
+          },
+          "section_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "name": {
+            "S": "Demo NAT Gateways"
+          },
+          "vid_id": {
+            "S": "10"
+          },
+          "order": {
+            "N": 10
+          }
+        }
+      }
+    }
+  ]
+}
