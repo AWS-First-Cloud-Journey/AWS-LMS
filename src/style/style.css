@@ -123,13 +123,6 @@ header .header-right .dropdown i {
   position: fixed;
 }
 
-.breadcrumbs a {
-  display: block;
-  color: #4a4a4a;
-  font-size: 16px;
-  text-decoration: none;
-}
-
 .app_container {
   height: 95vh;
   width: 100%;
@@ -384,7 +377,6 @@ header .header-right .dropdown i {
   color: #0073bb;
 }
 
-
 .lesson-content {
   display: flex;
   /* width: 100%;
@@ -423,4 +415,308 @@ header .header-right .dropdown i {
 video {
   width: 100%;
   height: 100%;
+}
+
+/*======== Add Lecture =========*/
+
+.add-lecture {
+  flex-grow: 1;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.add-main {
+  max-width: 1080px;
+  min-width: 280px;
+  padding-top: 2rem;
+  position: relative;
+  flex-grow: 1;
+}
+
+.ui-breadcrumbs {
+  display: flex;
+}
+
+.add-course {
+  min-height: 95vh;
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.add-main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: stretch;
+  padding: 0 4rem;
+  /* background-color: #f2f3f3; */
+}
+
+.add-content {
+  max-width: 100%;
+  min-width: 1080px;
+  padding-top: 5rem;
+  position: relative;
+  flex-grow: 1;
+}
+
+.content {
+  padding-bottom: 2rem;
+}
+
+.dx-Wizard {
+  display: flex;
+}
+
+.dx-Wizard__progressContainer {
+  display: block;
+  flex: 1 1 auto;
+  max-width: 20rem;
+  width: 100%;
+}
+
+.dx-WizardProgress {
+  margin-right: 8rem;
+}
+
+.dx-WizardProgressStep,
+.dx-WizardProgressStep,
+.spec-WizardProgressStep {
+  padding: 0px;
+}
+
+.dx-WizardProgressStep__header {
+  color: #687078;
+  padding: 0.2rem 0;
+  font-size: 0.8rem;
+}
+
+.dx-WizardProgressStep__title {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  line-height: 2rem;
+}
+
+.dx-WizardProgressStep__title--bold {
+  font-weight: 600;
+  color: #16191f;
+}
+
+.dx-WizardProgress__divider {
+  border: none;
+  border-bottom: 0.1rem solid #d5dbdb;
+  margin-bottom: 0.5rem;
+}
+
+.dx-Wizard__contentContainer {
+  flex: 1 1 auto;
+  max-width: 80rem;
+  width: 100%;
+}
+.form-content {
+  padding-bottom: 2rem;
+}
+.form-header {
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+  color: #16191f;
+}
+
+.util-container > * {
+  padding: 1rem 1.3rem;
+}
+
+.util-container > :last-child {
+  padding-bottom: 1.5rem;
+}
+
+.util-container {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgb(0 28 36 / 30%), 1px 1px 1px 0 rgb(0 28 36 / 15%),
+    -1px 1px 1px 0 rgb(0 28 36 / 15%);
+  border-top: 1px solid #eaeded;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+}
+
+.util-container .util-container-header {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #16191f;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eaeded;
+  padding: 1rem 1rem;
+  font-weight: 700;
+}
+
+.form-field {
+  box-sizing: border-box;
+}
+
+.form-field-label,
+.form-field-content {
+  box-sizing: border-box;
+  color: #16191f;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  display: inline-block;
+  padding: 4px 0;
+}
+
+.form-field-description,
+.form-hint {
+  color: #687078;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+}
+
+.form-field-control {
+  padding-top: 0.5rem;
+}
+
+input[type="text"] {
+  padding: 0.2rem 0.5rem;
+  color: #16191f;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #aab7b8;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  height: 2rem;
+}
+
+textarea[type="text"] {
+  padding: 0.2rem 0.5rem;
+  color: #16191f;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #aab7b8;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  /* height: 6rem; */
+}
+
+input[type="radio"] {
+  margin: 0.5rem 0.5rem 0.5rem 0px;
+  font-size: 0.9rem;
+}
+
+input[type="text"]:focus,
+textarea[type="text"]:focus {
+  outline: 2px dotted transparent;
+  border: 1px solid #00a1c9;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #00a1c9;
+}
+
+.util-mb-l,
+.util-mv-l {
+  margin-bottom: 2rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dx-FormActions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: -1rem 0 0 -1rem;
+}
+
+.dx-FormActions > * {
+  margin: 1rem 0 0 1rem;
+}
+
+.choose-file {
+  pointer-events: auto;
+  width: 100%;
+  word-break: break-word;
+  display: inline-block;
+}
+
+.btn-choose-file {
+  background: #ffffff;
+  color: #545b64;
+  border-color: #545b64;
+  position: relative;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  padding: 4px 20px;
+  border: 1px solid;
+  font-size: 14px;
+  word-break: break-word;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon {
+  position: relative;
+  left: 4px;
+  left: 4px;
+  margin-right: 4px;
+  height: 22px;
+  width: 16px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  word-break: break-word;
+  font-weight: 700;
+  padding: 2px 0;
+}
+
+.display-vertical {
+  row-gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: flex;
+}
+
+.child-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 18px;
+}
+
+.form-review {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-field-col {
+  max-width: calc(30% - 10px);
+  width: 100%;
+}
+
+.form-field-content {
+  color: #545b64;
 }

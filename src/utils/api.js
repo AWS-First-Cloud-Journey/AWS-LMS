@@ -1,5 +1,5 @@
 import axios from "axios";
-const api = "https://81n6e0oxg7.execute-api.ap-southeast-1.amazonaws.com/dev";
+const api = "https://wzw0yg6cm0.execute-api.ap-southeast-1.amazonaws.com/dev";
 
 export const getCourseById = async (id) => {
   try {
@@ -20,8 +20,24 @@ export const getVidById = async (id) => {
       method: "get",
       url: `${api}/course/resrc/${id}`,
     });
+    console.log(response.data);
     return response.data;
   } catch (error) {
     throw error;
+  }
+};
+
+export const uploadLecture = async (data) => {
+  try {
+    const response = await axios({
+      method: "post",
+      url: `${api}/course/lec`,
+      data: data,
+      headers: { "Content-Type": "multipart/form-data" },
+    });
+    console.log(response)
+    return response;
+  } catch (err) {
+    throw err;
   }
 };

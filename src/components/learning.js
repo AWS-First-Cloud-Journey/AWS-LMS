@@ -6,6 +6,7 @@ import introCourse from "../assets/introCourse.mp4";
 import routeTable from "../assets/route table.mp4";
 import { getCourseById, getVidById } from "../utils/api";
 import { coverSecondToString } from "../utils/tool";
+import { Storage } from "aws-amplify";
 
 function Learning() {
   const [resrc, setResrc] = useState();
@@ -21,11 +22,13 @@ function Learning() {
     );
   }, []);
 
-  const selectLecture = (lecture, indexChap, indexLec) => {
+  const selectLecture = async (lecture, indexChap, indexLec) => {
     // videoTimeEl.current.innerHTML = videoRef.current.duration;
     setItemActive([indexChap, indexLec]);
     setCurrentLec(lecture)
-    getVidById(lecture.vid_id).then((data) => setResrc(data));
+    // getVidById(lecture.vid_id).then((data) => setResrc(data));
+    const videoURL = await Storage.get(lecture.resource, { level: "public" });
+    setResrc(videoURL)
   };
 
   const updateVideoInfor = () => {

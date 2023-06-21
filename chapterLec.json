@@ -1,0 +1,154 @@
+{
+  "ChapterLecture": [
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "1"
+          },
+          "lec_id": {
+            "S": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "2"
+          },
+          "lec_id": {
+            "S": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "3"
+          },
+          "lec_id": {
+            "S": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "4"
+          },
+          "lec_id": {
+            "S": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "5"
+          },
+          "lec_id": {
+            "S": "5"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "6"
+          },
+          "lec_id": {
+            "S": "6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "7"
+          },
+          "lec_id": {
+            "S": "7"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "8"
+          },
+          "lec_id": {
+            "S": "8"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "9"
+          },
+          "lec_id": {
+            "S": "9"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "chap_id": {
+            "S": "c131715b-e699-48e5-8479-0894736b2150"
+          },
+          "lec_order": {
+            "N": "10"
+          },
+          "lec_id": {
+            "S": "10"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -38,7 +38,7 @@
 }
 
 .text-yellow-dark {
-  color: #EC7211
+  color: #ec7211;
 }
 
 .text-yellow {
@@ -58,27 +58,155 @@
 }
 
 .text-gray {
-  color: #646464
+  color: #646464;
 }
 
 .text-light-gray {
-  color: #888888
+  color: #888888;
 }
 
 .icon-small {
   width: 1.6rem;
   height: 1.6rem;
-  padding: 5px ;
+  padding: 5px;
+}
+
+.disable-color {
+  color: #aab7b8 !important;
+}
+.weight-normal {
+  font-weight: 400 !important;
+}
+
+.btn-normal {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  border-radius: 2px;
+  border: 1px solid;
+  padding: 0.3rem 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.btn-variant-primary {
+  background: #ff9900;
+  color: #fff;
+  border-color: #ff9900;
+  position: relative;
+  text-decoration: none;
+}
+.button-variant-link {
+  background: transparent;
+  color: #545b64;
+  border-color: transparent;
+  position: relative;
+  text-decoration: none;
 }
 
 #wrapper {
-  width: 100%;
+  /* width: 100%;
   font-family: "Amazon Ember";
-  font-size: 16px;
+  font-size: 14px; */
+  animation: none 0s ease 0s 1 normal none running;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background: transparent none repeat 0 0 / auto auto padding-box border-box
+    scroll;
+  border: medium none currentColor;
+  border-collapse: separate;
+  border-image: none;
+  border-radius: 0;
+  border-spacing: 0;
+  bottom: auto;
+  box-shadow: none;
+  box-sizing: content-box;
+  caption-side: top;
+  clear: none;
+  clip: auto;
+  color: #000;
+  columns: auto;
+  column-count: auto;
+  column-fill: balance;
+  column-gap: normal;
+  column-rule: medium none currentColor;
+  column-span: 1;
+  column-width: auto;
+  content: normal;
+  counter-increment: none;
+  counter-reset: none;
+  cursor: auto;
+  direction: ltr;
+  display: inline;
+  empty-cells: show;
+  float: none;
+  font-family: serif;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  height: auto;
+  -webkit-hyphens: none;
+  hyphens: none;
+  left: auto;
+  letter-spacing: normal;
+  list-style: disc outside none;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  orphans: 2;
+  outline: medium none invert;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0;
+  page-break-after: auto;
+  page-break-before: auto;
+  page-break-inside: auto;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  position: static;
+  right: auto;
+  tab-size: 8;
+  table-layout: auto;
+  text-align: left;
+  text-align-last: auto;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  transform-origin: 50% 50% 0;
+  transform-style: flat;
+  transition: none 0s ease 0s;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: visible;
+  white-space: normal;
+  widows: 2;
+  width: auto;
+  word-spacing: normal;
+  z-index: auto;
+  all: initial;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #16191f;
+  font-weight: 400;
+  font-family: "Amazon Ember", "Helvetica Neue";
 }
 
 header {
-  background: #232F3E;
+  background: #232f3e;
   width: 100%;
   height: 5vh;
   position: -webkit-sticky;
@@ -86,10 +214,145 @@ header {
   top: 0;
   left: 0;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  transition: all .2s;
+  transition: all 0.2s;
   z-index: 999;
   font-size: 14px;
-  color: #000
+  color: #000;
+}
+
+form {
+  animation: none 0s ease 0s 1 normal none running;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  background: transparent none repeat 0 0 / auto auto padding-box border-box
+    scroll;
+  border: medium none currentColor;
+  border-collapse: separate;
+  border-image: none;
+  border-radius: 0;
+  border-spacing: 0;
+  bottom: auto;
+  box-shadow: none;
+  box-sizing: content-box;
+  caption-side: top;
+  clear: none;
+  clip: auto;
+  color: #000;
+  columns: auto;
+  column-count: auto;
+  column-fill: balance;
+  column-gap: normal;
+  column-rule: medium none currentColor;
+  column-span: 1;
+  column-width: auto;
+  content: normal;
+  counter-increment: none;
+  counter-reset: none;
+  cursor: auto;
+  direction: ltr;
+  display: inline;
+  empty-cells: show;
+  float: none;
+  font-family: serif;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  height: auto;
+  -webkit-hyphens: none;
+  hyphens: none;
+  left: auto;
+  letter-spacing: normal;
+  list-style: disc outside none;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  orphans: 2;
+  outline: medium none invert;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0;
+  page-break-after: auto;
+  page-break-before: auto;
+  page-break-inside: auto;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  position: static;
+  right: auto;
+  tab-size: 8;
+  table-layout: auto;
+  text-align: left;
+  text-align-last: auto;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  transform-origin: 50% 50% 0;
+  transform-style: flat;
+  transition: none 0s ease 0s;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: visible;
+  white-space: normal;
+  widows: 2;
+  width: auto;
+  word-spacing: normal;
+  z-index: auto;
+  all: initial;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #16191f;
+  font-weight: 400;
+  font-family: "Amazon Ember", "Helvetica Neue";
+}
+
+.awsui_root_1i0s3_ltrmr_93 {
+  border-collapse: separate;
+  border-spacing: 0;
+  caption-side: top;
+  cursor: auto;
+  direction: ltr;
+  empty-cells: show;
+  font-family: serif;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  letter-spacing: normal;
+  list-style: disc outside none;
+  tab-size: 8;
+  text-align: left;
+  text-align-last: auto;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  visibility: visible;
+  white-space: normal;
+  widows: 2;
+  word-spacing: normal;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: var(--font-body-m-size-sregvd, 14px);
+  line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+  color: var(--color-text-body-default-7m2b3r, #16191f);
+  font-weight: 400;
+  font-family: var(--font-family-base-ua1f64, "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif);
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 a {
@@ -99,9 +362,14 @@ a {
   cursor: pointer;
 }
 
-ul {
+/* ul {
   margin: 20px 15px;
   padding: 0;
+} */
+
+.ul-unstyle {
+  list-style: none;
+  padding-left: 0;
 }
 
 .container {
@@ -114,4 +382,43 @@ ul {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-size-normal {
+  width: 1.6rem;
+  height: 2rem;
+  padding: 0.2rem 0;
+  box-sizing: border-box;
+}
+/* .breadcrumbs li:not(:last-child)::after {
+  color: #0073bb;
+  content: " \00a0";
+  display: block;
+} */
+
+.breadcrumbs li:last-child a {
+  color: #4a4a4a;
+}
+
+.breadcrumbs li a {
+  display: block;
+  color: #0073bb;
+  font-size: 14px;
+  text-decoration: none;
 }

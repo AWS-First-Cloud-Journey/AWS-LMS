@@ -1,0 +1,17 @@
+{
+  "resourceName": "awslmsresources",
+  "policyUUID": "90f7fd30",
+  "bucketName": "awslmsresources",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {}
+}

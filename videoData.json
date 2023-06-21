@@ -1,5 +1,5 @@
 {
-  "CourseVideo": [
+  "CourseResources": [
     {
       "PutRequest": {
         "Item": {
@@ -10,7 +10,7 @@
             "S": "vpc"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/1.vpc.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/1.vpc.mp4"
           }
         }
       }
@@ -25,7 +25,7 @@
             "S": "subnet"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/2.subnet.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/2.subnet.mp4"
           }
         }
       }
@@ -40,7 +40,7 @@
             "S": "az"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/3.az.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/3.az.mp4"
           }
         }
       }
@@ -55,7 +55,7 @@
             "S": "subnet"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/4.public-and-private-subnet.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/4.public-and-private-subnet.mp4"
           }
         }
       }
@@ -70,7 +70,7 @@
             "S": "route-table"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/5.route-table.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/5.route-table.mp4"
           }
         }
       }
@@ -85,7 +85,7 @@
             "S": "public-ips"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/6.public-ips.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/6.public-ips.mp4"
           }
         }
       }
@@ -100,7 +100,7 @@
             "S": "dhcp"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/7.dhcp.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/7.dhcp.mp4"
           }
         }
       }
@@ -115,7 +115,7 @@
             "S": "demo-vpc"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/8.demo-vpc.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/8.demo-vpc.mp4"
           }
         }
       }
@@ -130,7 +130,7 @@
             "S": "nat"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/9.nat.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/9.nat.mp4"
           }
         }
       }
@@ -145,7 +145,7 @@
             "S": "demo-nat"
           },
           "url": {
-            "S": "https://dj1x97de3gl4h.cloudfront.net/video/10.demo-nat.mp4"
+            "S": "https://d2mtbcf43c3uqg.cloudfront.net/10.demo-nat.mp4"
           }
         }
       }
