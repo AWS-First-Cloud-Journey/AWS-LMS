@@ -26,7 +26,6 @@ const Breadcrumbs = (props) => {
             </li>
             {crumbs.map((crumb) => {
               currentLink += `/${crumb}`;
-              console.log(crumb);
               return (
                 <li key={crumb}>
                   <div className="ui-breadcrumbs">

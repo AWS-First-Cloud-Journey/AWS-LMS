@@ -4,7 +4,8 @@ import { DefaultPlayer as Video } from "react-html5video";
 import "react-html5video/dist/styles.css";
 import introCourse from "../assets/introCourse.mp4";
 import routeTable from "../assets/route table.mp4";
-import { getCourseById, getVidById } from "../utils/api";
+import Breadcrumbs from "../utils/breadcrumbs";
+import { getCourseById, getVidById, getAllLecture } from "../utils/api";
 import { coverSecondToString } from "../utils/tool";
 import { Storage } from "aws-amplify";
 
@@ -17,18 +18,27 @@ function Learning() {
   const videoTimeEl = useRef();
   const videoRef = useRef();
   useEffect(() => {
-    getCourseById("266bab6b-c79c-4571-b5ed-7981cb176381").then((response) =>
-      setCourse(response)
-    );
+    // getCourseById("266bab6b-c79c-4571-b5ed-7981cb176381").then((response) =>
+    //   setCourse(response)
+    // );
+    getAllLecture().then((response) => {
+      const hardCourse = [
+        {
+          chapter: "Introduction",
+          lectures: response.data,
+        },
+      ];
+      setCourse(hardCourse)
+    });
   }, []);
 
   const selectLecture = async (lecture, indexChap, indexLec) => {
     // videoTimeEl.current.innerHTML = videoRef.current.duration;
     setItemActive([indexChap, indexLec]);
-    setCurrentLec(lecture)
+    setCurrentLec(lecture);
     // getVidById(lecture.vid_id).then((data) => setResrc(data));
     const videoURL = await Storage.get(lecture.resource, { level: "public" });
-    setResrc(videoURL)
+    setResrc(videoURL);
   };
 
   const updateVideoInfor = () => {
@@ -41,11 +51,7 @@ function Learning() {
 
   return (
     <div className="page home video-page">
-      <div className="breadcrumbs">
-        <Link style={{ cursor: "pointer" }} to="/">
-          Home
-        </Link>
-      </div>
+        <Breadcrumbs/>
       <div className="page-content">
         <div className="learning-content" style={{ minHeight: "92vh" }}>
           <div className="learning-content1">
@@ -102,6 +108,7 @@ function Learning() {
                       <ul
                         style={{
                           margin: "0px",
+                          padding: "0px"
                         }}
                       >
                         {/* <li>
@@ -149,7 +156,7 @@ function Learning() {
                                             )
                                           }
                                         >
-                                          {lecture.name}
+                                          {lecture.title}
                                         </li>
                                       )
                                     )}
@@ -171,7 +178,9 @@ function Learning() {
                     <span className="title-note">
                       (<span ref={videoTimeEl}></span>)
                     </span>
-                    <span className="status">{Object.keys(currentLec).length > 0 ? "Watching" : ""}</span>
+                    <span className="status">
+                      {Object.keys(currentLec).length > 0 ? "Watching" : ""}
+                    </span>
                   </div>
                   <div className="lesson-content">
                     <div className="lesson-video active">
@@ -180,7 +189,7 @@ function Learning() {
                         //   <source src={resrc.url} type="video/webm"></source>
                         // </Video>
                         <video
-                          src={resrc.url}
+                          src={resrc}
                           ref={videoRef}
                           onLoadedData={updateVideoInfor}
                           controls

@@ -41,3 +41,16 @@ export const uploadLecture = async (data) => {
     throw err;
   }
 };
+
+export const getAllLecture = async () => {
+  try {
+    const response = await axios({
+      method: "get",
+      url: `${api}/course/lec`,
+    });
+    console.log(response)
+    return response;
+  } catch (err) {
+    throw err;
+  }
+};
